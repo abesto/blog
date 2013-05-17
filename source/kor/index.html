@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Knockout - Raphaël integration</title>
+    <script type="text/javascript" src="raphael.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.tmpl.js"></script>
+    <script type="text/javascript" src="knockout.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<!-- Templates -->
+<script type="text/html" id="nodeRow">
+    <tr>
+        <td><input type="text" data-bind="value: label"></td>
+        <td><input type="text" data-bind="value: color"></td>
+        <td><input type="button" data-bind="click: function() { $data.graph.deleteNode($data); }" value="Delete"></td>
+    </tr>
+</script>
+
+<script type="text/html" id="edgeRow">
+    <tr>
+        <td><input type="text" data-bind="value: label"></td>
+        <td><input type="value" data-bind="value: color"></td>
+        <td data-bind="text: from.label"/>
+        <td data-bind="text: to.label"/>
+        <td><input type="button" data-bind="click: function() { $data.graph.deleteEdge($data); }" value="Delete"></td>
+    </tr>
+</script>
+
+<div style="width: 55%; height: 400px; border: 1px solid black; float: left" id="canvas"></div>
+<div style="float: left" id="controls">
+	<input type="button" value="Create node" id="create-node"><br>
+	<input type="button" value="Delete node" id="delete-node"><br>
+	<input type="button" value="Create edge" id="create-edge"><br>
+    <input type="button" value="Delete edge" id="delete-edge">
+</div>
+<div style="float: right; width: 35%">
+	Some things to try:
+	<ul>
+		<li>Select "tool" by clicking on a button</li>
+		<li>Create edges by clicking "Create edge", then dragging a node onto another one</li>
+		<li>Add nodes, edges using the "GUI"; remove nodes and edges either using the "GUI" or from the table</li>
+		<li>Change color to a color name in the table</li>
+		<li>Change color to a hex value (#ff0022) in the table</li>
+		<li>Change label, note how it's updated on the vector image</li>
+		<li>Change label of a node which is the endpoint of an edge; note how the "from" or "to" field of the edge is updated</li>
+		<li>Check out the docco annotated source <a href="docs/script.html">here</a></li>
+	</ul>
+</div>
+
+<div style="float: left; clear: both">
+<h3>Nodes</h3>
+<!-- Data-bound table of nodes -->
+<table id="nodes">
+    <thead>
+    <th>Label</th>
+    <th>Color</th>
+    <th></th>
+    </thead>
+    <tbody data-bind="template: { name: 'nodeRow', foreach: nodes }"></tbody>
+</table>
+</div>
+
+<div style="float: left">
+<h3>Edges</h3>
+<table id="edges">
+    <thead>
+    <th>Label</th>
+    <th>Color</th>
+    <th>From</th>
+    <th>To</th>
+    </thead>
+    <tbody data-bind="template: { name: 'edgeRow', foreach: edges }"></tbody>
+</table>
+</div>
+
+</body>
+</html>
