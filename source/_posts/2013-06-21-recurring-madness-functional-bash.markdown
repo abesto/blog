@@ -75,7 +75,7 @@ identifier`. Alright. Remember, this is a hack. What's a hack about? Breaking
 boundaries. What's the root of all evil? (We have several of those, now that I
 think about it). Anyway, one possible root of all evil is `eval`. It lets us
 build a string, and evaluate it in the current context. Can we build a string
-that, when evaluated, will define exactly the function we need? *HELL YES!*.
+that, when evaluated, will define exactly the function we need? *HELL YES!*
 
 ```bash
 compose() {
