@@ -170,10 +170,10 @@ add() {
 }
 
 partial() {
-    exportfun=$1; shift
+    result_fun=$1; shift
     fun=$1; shift
     params=$*
-    eval "$exportfun() {
+    eval "$result_fun() {
         more_params=\$*;
         $fun $params \$more_params;
     }"
@@ -199,10 +199,10 @@ compose() {
 }
 
 partial() {
-    exportfun=$1; shift
+    result_fun=$1; shift
     fun=$1; shift
     params=$*
-    eval "$exportfun() {
+    eval "$result_fun() {
         more_params=\$*;
         $fun $params \$more_params;
     }"
