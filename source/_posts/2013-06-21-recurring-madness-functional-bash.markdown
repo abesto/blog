@@ -24,8 +24,8 @@ bash are named, right? So if we can reference a function by name, it shouldn't
 be too hard to create a new function that calls one, then calls the other with
 the result, and prints the output.
 
-The problem is the "create" part. I want to be able to write something like we
-can do in Haskell:
+The problem is the "create" part. I want to be able to write something like
+what's possible in Haskell:
 
 ```haskell
 -- Given two functions
@@ -36,13 +36,13 @@ add3 = add1 . add2
 ```
 
 There's no way to return a function in bash. We can return a number with
-`return`, or echo some string. That's it. A number won't cut it, so the output
+`return`, or `echo` some string. That's it. A number won't cut it, so the output
 will need to be the name of the function. But that's not good enough, it would
-mean that I don't have complete control of what exists in my
-namespace. Consider: if the "return value" is a string, which is the name of the
-new function, I can assign it to a new name, but the (probably mangled)
-generated name is already polluting my namespace. So it follows that the only
-solution is passing in the name I want for the result of the composition.
+mean that there's no control of what gets added to the namespace. Consider: if
+the "return value" is a string, which is the name of the new function, then no
+matter what you do (assign it to another name for example), the generated name
+is already polluting the namespace. So it follows that the only solution is
+passing in the name I want for the result of the composition.
 
 Great. So the signature (if there's even such a thing in Bash) will be something
 like `compose(result_function, outer_function, inner_function)`. Let's write
