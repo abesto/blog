@@ -171,7 +171,7 @@ ghci> (1,2)&_1 %~ (+1)
 ```
 
  * `%~` says: transform the value I've just selected on the left, using the function on the right.
- * `(+1)` is just the standard partially applied `+` operater used in all the Haskell tutorials ever.
+ * `(+1)` is just the standard partially applied `+` operator used in all the Haskell tutorials ever.
 
 But we can do better:
 
