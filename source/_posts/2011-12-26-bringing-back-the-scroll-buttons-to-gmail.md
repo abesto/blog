@@ -32,8 +32,8 @@ I haven’t managed to find a way to disable this feature in Chromium; there’s
 For Chrome (and Chromium) you’ll need to find a file. The changes will be applied as soon as you save it – there’s no need to restart the browser.
 
 **Windows:**
-`%LOCALAPPDATA%GoogleChromeUser DataDefaultUser StyleSheetsCustom.css`
-(`%LOCALAPPDATA%` is usually `C:UsersusernameAppDataLocal`, where `AppData` is a hidden folder)
+`%LOCALAPPDATA%\Google\Chrome\User Data\Default\User StyleSheets\Custom.css`
+(`%LOCALAPPDATA%` is usually `C:\Users\username\AppData\Local`, where `AppData` is a hidden folder)
 
 **Mac:**
 `/Users/username/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css`
