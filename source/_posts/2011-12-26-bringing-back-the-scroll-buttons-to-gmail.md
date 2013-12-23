@@ -77,5 +77,4 @@ Any CSS  you enter here will be applied to all pages loaded in the browser. The
   border: 1px solid #1f1f1f;
   border-top: 1px solid #666666;
   border-left: 1px solid #666666; }
-    }
 ```
