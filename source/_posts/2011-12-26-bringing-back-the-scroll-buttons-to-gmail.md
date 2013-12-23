@@ -9,7 +9,7 @@ categories:
   - Client
   - Desktop
 ---
-**Update (2013-12-23)**: The horrible extinction of the scroll-bar buttons has spread from GMail to all of Chrome. The style-sheet is now updated to work with recent versions of Chrome, and look much better than before. The design update is an adaptation of the stylesheet [here](https://www.coffeepowered.net/2011/06/17/sexy-css-scrollbars/).
+**Update (2013-12-23)**: The horrible extinction of the scroll-bar buttons has spread from GMail to all of Chrome. The style-sheet is now updated to work with recent versions of Chrome and GMail, and look much better than before. The design update is an adaptation of the stylesheet [here](https://www.coffeepowered.net/2011/06/17/sexy-css-scrollbars/) - I made it a bit simpler (in code) and lighter (in color).
 
 There’s been [some][1] [noise][2] [on the ‘net][3] about missing scroll up/down buttons in the new Google design. Note that this only affects the browsers based on WebKit (Chrome, Safari and some KDE browsers, to name a few). Here’s a way to fix that.
 
@@ -49,32 +49,37 @@ In Safari you don’t even have to leave your browser: you can create stylesheet
 Any CSS  you enter here will be applied to all pages loaded in the browser. The following snippet makes sure that the scroll up/left button at the start and the scroll down/right button at the end of the scroll-bar are visible as a gray box. It does not contain anything to apply it to only Google applications, but chances are that if you want the scroll buttons here, you’ll want them everywhere.
 
 ```css
-::-webkit-scrollbar:hover {
-  height: 18px; }
+:-webkit-scrollbar {
+    width: 16px !important;
+    height: 16px !important;
+}
 
 ::-webkit-scrollbar-button:start:decrement,
 ::-webkit-scrollbar-button:end:increment {
-  height: 15px;
-  width: 13px;
-  display: block;
-  background: #606261;
-  background-repeat: no-repeat; }
+  height: 15px !important;
+  width: 13px !important;
+  display: block !important;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ccc), color-stop(100%, #aaa)) !important;
+}
 
+::-webkit-scrollbar-button {
+  border: 1px solid #999 !important;
+}
 
-::-webkit-scrollbar-track-piece {
-  background-color: #151716; }
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none;
+}
 
 ::-webkit-scrollbar-thumb:vertical {
-  height: 50px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #4d4d4d), color-stop(100%, #333333));
-  border: 1px solid #0d0d0d;
-  border-top: 1px solid #666666;
-  border-left: 1px solid #666666; }
+  width: 15px !important;
+  height: 50px !important;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #bbb), color-stop(100%, #888)) !important;
+  border: 1px solid #777 !important;
+  -webkit-box-shadow: 0 !important;
+}
 
-::-webkit-scrollbar-thumb:horizontal {
-  width: 50px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #333333));
-  border: 1px solid #1f1f1f;
-  border-top: 1px solid #666666;
-  border-left: 1px solid #666666; }
+::-webkit-scrollbar-track-piece {
+  background-color: #dddddd !important; 
+}
 ```
