@@ -9,6 +9,8 @@ categories:
   - Client
   - Desktop
 ---
+**Update (2013-12-23)**: The horrible extinction of the scroll-bar buttons has spread from GMail to all of Chrome. The style-sheet is now updated to work with recent versions of Chrome, and look much better than before. The design update is an adaptation of the stylesheet [here](https://www.coffeepowered.net/2011/06/17/sexy-css-scrollbars/).
+
 There’s been [some][1] [noise][2] [on the ‘net][3] about missing scroll up/down buttons in the new Google design. Note that this only affects the browsers based on WebKit (Chrome, Safari and some KDE browsers, to name a few). Here’s a way to fix that.
 
  [1]: http://www.google.gg/support/forum/p/gmail/thread?tid=0d5d7ea34ac7f5da&hl=en
@@ -47,14 +49,33 @@ In Safari you don’t even have to leave your browser: you can create stylesheet
 Any CSS  you enter here will be applied to all pages loaded in the browser. The following snippet makes sure that the scroll up/left button at the start and the scroll down/right button at the end of the scroll-bar are visible as a gray box. It does not contain anything to apply it to only Google applications, but chances are that if you want the scroll buttons here, you’ll want them everywhere.
 
 ```css
-    ::-webkit-scrollbar-button:start:decrement,
-    ::-webkit-scrollbar-button:end:increment {
-      background-color: #ddd;
-      height: 16px !important;
-      width: 16px !important;
-      border: 1px outset silver;
-      display: block !important;
+::-webkit-scrollbar:hover {
+  height: 18px; }
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  height: 15px;
+  width: 13px;
+  display: block;
+  background: #606261;
+  background-repeat: no-repeat; }
+
+
+::-webkit-scrollbar-track-piece {
+  background-color: #151716; }
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 50px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #4d4d4d), color-stop(100%, #333333));
+  border: 1px solid #0d0d0d;
+  border-top: 1px solid #666666;
+  border-left: 1px solid #666666; }
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #333333));
+  border: 1px solid #1f1f1f;
+  border-top: 1px solid #666666;
+  border-left: 1px solid #666666; }
     }
 ```
-
-This is really unacceptable from a design perspective (read: it looks bad). It’s also ridiculous that we have to resort to hacks like this to have scroll buttons… Still, this is the only way I could come up with (other than disabling this extension in the Chromium/WebKit source and compiling).
