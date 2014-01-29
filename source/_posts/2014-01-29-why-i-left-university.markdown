@@ -11,7 +11,7 @@ Note that there's no "... and why you should too". This post is decidedly _not_ 
  - It's not calling for arguments on either side to help me make a decision (it's all done and in the past)
  - It's also not a general statement about anything at all. 
  
-This post is instead the story of my very specific case. I share all details of it openly, recognizing that some of you don't agree with my decision. My goal is also not to convince you about anything; I'm explaining my thinking and feelings so you may better understand, and if needed more easily accept my decision.
+This post is instead the story of my very specific case. These are true for me, they may not be true for you. I share all details openly, recognizing that some of you don't agree with my decision. My goal is also not to convince you about anything; I'm explaining my thinking and feelings so you may better understand, and if needed, more easily accept my decision.
 
 Warning: it's a really, really, really long post. It gives all the exposition needed to understand me (in this regard). I don't mind if you don't read it, but if you want to understand, then please do. These are the arguments I considered, how I weighed them, and how I came to the final conclusion.
  
@@ -43,9 +43,9 @@ I quickly realized that the reality of CS education (in this specific country, a
 
 I often felt that programming classes were there just because they had to be, and no-one really cared about them. Often I saw solutions accepted with a 4 (the second best grade in Hungary) that wouldn't even compile, but most of it looked correct. I mean... Come on. If it doesn't compile, it's not a program.
 
-Contrast that to the rigor used in math courses: a normal exam consists of first correctly stating 5-10 definitions (chosen at random out of ~150), then accurately proving one or two theorems (chosen at random out of ~30). Note that neither of these requires any thinking, abstraction, creativity or thought. It requires basic text recognition (which theorem is this?), ok memory and a lot of time.
+Contrast that to the rigor used in math courses: a normal exam consists of first correctly stating 5-10 definitions (chosen at random out of ~150), then accurately proving one or two theorems (chosen at random out of ~30). Note that neither of these require any abstraction, creativity, problem solving - or, really, thought. It requires basic text recognition (which theorem is this?), ok memory and a lot of time.
 
-Of course there's a counter-argument: I could take the time to deeply understand all ~150 definitions and ~30 proofs. Deeply enough that I'm able to reconstruct them on the spot. I like math, so that doesn't sound terrible. Even if you add that there are more than one such courses each semester. However understanding that deeply takes even more time than just storing the text until the time of the exam. Time that I, in the end, decided is better spent learning "something interesting".
+Of course there's a counter-argument: I could take the time to deeply understand all ~150 definitions and ~30 proofs. Deeply enough that I'm able to reconstruct them on the spot. I like math, so that doesn't sound terrible. Even if you add that there are more than one such course each semester. However, understanding that deeply takes even more time than just storing the text until the time of the exam. Time that I, in the end, decided is better spent learning "something interesting".
 
 
 ### "Just for the paper"
