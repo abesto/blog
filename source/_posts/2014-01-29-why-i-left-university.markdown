@@ -45,7 +45,7 @@ I often felt that programming classes were there just because they had to be, an
 
 Contrast that to the rigor used in math courses: a normal exam consists of first correctly stating 5-10 definitions (chosen at random out of ~150), then accurately proving one or two theorems (chosen at random out of ~30). Note that neither of these require any abstraction, creativity, problem solving - or, really, thought. It requires basic text recognition (which theorem is this?), ok memory and a lot of time.
 
-Of course there's a counter-argument: I could take the time to deeply understand all ~150 definitions and ~30 proofs. Deeply enough that I'm able to reconstruct them on the spot. I like math, so that doesn't sound terrible. Even if you add that there are more than one such course each semester. However, understanding that deeply takes even more time than just storing the text until the time of the exam. Time that I, in the end, decided is better spent learning "something interesting".
+Of course there's a counter-argument: I could take the time to deeply understand all ~150 definitions and ~30 proofs. Deeply enough that I'm able to reconstruct them on the spot. I like math, so that doesn't sound terrible. Even if you add that there is more than one such course each semester. However, understanding that deeply takes even more time than just storing the text until the time of the exam. Time that I, in the end, decided is better spent learning "something interesting".
 
 
 ### "Just for the paper"
