@@ -31,7 +31,7 @@ A big number of things needed to happen, and I had to make a few realizations, t
 
 During primary school I got my initial intro to programming from my dad (big thanks). Some time towards its end I realized that I was the local geek who knew everything about computers, I even thought of myself as such, but I still didn't have a single useful application I wrote myself. That was really a turning point: I started teaching myself everything I could find on the internet (and the internet is really great for learning programming).
 
-There were two, maybe three times when I learned "something interesting" instead of what I should've been learning for school in the years before ELTE. That tells you something about how serious this "dutifulness" condition was. Even so, I managed to get my first contract about half a year before graduation.
+There were two, maybe three times when I learned "something interesting" instead of what I should've been learning for school in the years before ELTE. That tells you something about how serious this "dutifulness" condition was. Even so, I managed to get my first contract about half a year before graduating from high school.
 
 One of the cases when I learned something interesting instead of the required material was  the night before my CS graduation exam. I kind of had enough, and decided to read the Gimp manual instead. The next day the topic I had to talk about was how computers represent images.  A few surprised teachers and an aced exam later I was on my way to ELTE - what I've been looking forward to for years.
 
@@ -64,7 +64,7 @@ Of course this argument works only because I don't want to (a) go into academia 
 
 Yeah. About that... I just honestly don't care that much. Sure, being able to say "I've a BSc" gives a certain amount of respect. But that's it; it doesn't give any insight on the knowledge, the skills, the quickness of mind, the experience one has.
 
-To be fair, it pretty well indicates at least this one thing: if you have a diploma, you have grit. You went up to seemingly useless and very hard work and did it anyway, because it was required. That can be a useful certificate in some kinds of environments. I'd prefer to work in environments where instead you're expected to see the big picture, the strategic goals, and can make sacrafices to meet those goals - but not because someone said so.
+To be fair, it pretty well indicates at least this one thing: if you have a diploma, you have grit. You went up to seemingly useless and very hard work and did it anyway, because it was required. That can be a useful certificate in some kinds of environments. I'd prefer to work in environments where instead you're expected to see the big picture, the strategic goals, and can make sacrifices to meet those goals - but not because someone said so.
 
 ### But surely there's useful stuff to learn at the university
 
