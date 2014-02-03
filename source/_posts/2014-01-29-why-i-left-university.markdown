@@ -14,6 +14,8 @@ Note that there's no "... and why you should too". This post is decidedly _not_ 
 This post is instead the story of my very specific case. These are true for me, they may not be true for you. I share all details openly, recognizing that some of you don't agree with my decision. My goal is also not to convince you about anything; I'm explaining my thinking and feelings so you may better understand, and if needed, more easily accept my decision.
 
 Warning: it's a really, really, really long post. It gives all the exposition needed to understand me (in this regard). I don't mind if you don't read it, but if you want to understand, then please do. These are the arguments I considered, how I weighed them, and how I came to the final conclusion.
+
+<!-- more -->
  
 ### Basic facts
 
