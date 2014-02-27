@@ -9,6 +9,8 @@ categories:
   - Client
   - Desktop
 ---
+**Update (2014-02-27)**: User stylesheets have been disabled starting with Chrome 32. If you just want cool scroll-bars, try an extension like [Rescroller](https://chrome.google.com/webstore/detail/rescroller/ddehdnnhjimbggeeenghijehnpakijod). If you want to have your stylesheets back, [this](http://stackoverflow.com/a/21210882/583780) answer on StackOverflow explains how to do that.
+
 **Update (2013-12-23)**: The horrible extinction of the scroll-bar buttons has spread from GMail to all of Chrome. The style-sheet is now updated to work with recent versions of Chrome and GMail, and look much better than before. The design update is an adaptation of the stylesheet [here](https://www.coffeepowered.net/2011/06/17/sexy-css-scrollbars/) - I made it a bit simpler (in code) and lighter (in color).
 
 There’s been [some][1] [noise][2] [on the ‘net][3] about missing scroll up/down buttons in the new Google design. Note that this only affects the browsers based on WebKit (Chrome, Safari and some KDE browsers, to name a few). Here’s a way to fix that.
@@ -80,6 +82,6 @@ Any CSS  you enter here will be applied to all pages loaded in the browser. The
 }
 
 ::-webkit-scrollbar-track-piece {
-  background-color: #dddddd !important; 
+  background-color: #dddddd !important;
 }
 ```
