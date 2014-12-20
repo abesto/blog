@@ -8,7 +8,6 @@ ENV LC_ALL en_US.utf8
 ADD . /blog
 WORKDIR /blog
 
-RUN wget https://raw.githubusercontent.com/abesto/blog/master/Gemfile
 RUN gem install bundler
 RUN bundle install
 
