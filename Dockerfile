@@ -1,7 +1,7 @@
 FROM dockerfile/nginx
 
 RUN apt-get update
-RUN apt-get install git ruby1.9.3 build-essential language-pack-en-base -y
+RUN apt-get install git ruby1.9.3 build-essential language-pack-en-base python -y
 
 ADD . /blog
 WORKDIR /blog
