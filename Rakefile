@@ -4,7 +4,7 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "abesto@dc-06bd6ecf.abesto.net"
+ssh_user       = "abesto@direct.abesto.net"
 ssh_port       = "22"
 document_root  = "/srv/blog-octopress"
 rsync_delete   = true
