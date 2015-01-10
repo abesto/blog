@@ -19,9 +19,9 @@ Professionally, that is. Not in any particular order.
  * [pixi-kotlin](http://abesto.github.io/pixi-kotlin/): [Kotlin](http://kotlinlang.org/) bindings for [Pixi.js](http://www.pixijs.com/)
  * [Changelog](https://github.com/prezi/changelog), an open-source change tracking tool for distributed systems. Also quite a few client libraries for it. ([blog post](https://medium.com/prezi-engineering/changelog-a-tool-designed-to-help-you-recover-faster-2aaca63dd276))
  * Having [some](https://github.com/baconjs/bacon.js/pull/125) [code](https://github.com/baconjs/bacon.js/pull/143) in [Bacon.js](https://baconjs.github.io/) for better integration with Node.js, and a link to my post [Bacon.js on the Server](http://abesto.net/bacon-js-on-the-server/) from the Bacon.js homepage.
- * Having been "headhunted" to work at [Prezi](https://prezi.com) at the age of 21
+ * Having been "headhunted" to work at [Prezi](https://prezi.com)
  * A [patch](https://github.com/skogsbaer/hscurses/pull/13) in [hscurses](http://hackage.haskell.org/package/hscurses)
- * Becoming tech-lead of a small team (still at Prezi) at 23. Was kind of a surprise, didn't plan for it, but it's an exciting challenge.
+ * Becoming tech-lead of a small team (still at Prezi). Was kind of a surprise, didn't plan for it, but it's an exciting challenge.
 
 ## Who's this guy anyway?
 
