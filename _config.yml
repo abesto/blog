@@ -7,12 +7,12 @@ description:
 email: abesto@abesto.net
 twitter_username: abesto
 github_username:  abesto
-linkedin_username: abesto
 
 permalink: /:title
 paginate: 5
 
 google_analytics_tracking_id: UA-17390698-2
+disqus_shortname: abestoswoes
 
 # Build settings
 markdown: redcarpet
