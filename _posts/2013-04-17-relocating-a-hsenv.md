@@ -1,7 +1,5 @@
 ---
 title: Relocating a hsenv
-author: Zoltán Nagy
-layout: post
 permalink: /relocating-a-hsenv
 robotsmeta:
   - index,follow

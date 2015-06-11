@@ -1,7 +1,5 @@
 ---
 title: 'Mostly Shiny: Vector Graphics with MVVM in the Browser'
-author: Zoltán Nagy
-layout: post
 permalink: /vector-graphics-with-mvvm-in-the-browser
 description:
   - >

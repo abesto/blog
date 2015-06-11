@@ -1,7 +1,5 @@
 ---
 title: Gun-shot Wound by User-Friendly (in the Foot)
-author: Zoltán Nagy
-layout: post
 permalink: /gun-shot-wound-by-user-friendly-in-the-foot
 robotsmeta:
   - index,follow

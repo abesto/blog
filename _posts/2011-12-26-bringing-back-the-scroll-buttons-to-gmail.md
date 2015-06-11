@@ -1,7 +1,5 @@
 ---
 title: 'Quick Fix: Bring Back the Scroll Buttons to GMail'
-author: Zoltán Nagy
-layout: post
 permalink: /bringing-back-the-scroll-buttons-to-gmail
 robotsmeta:
   - index,follow

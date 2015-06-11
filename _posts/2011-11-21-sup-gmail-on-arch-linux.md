@@ -1,8 +1,6 @@
 ---
 title: Sup + GMail on Arch Linux
-layout: post
 permalink: /sup-gmail-on-arch-linux
-author: Zoltán Nagy
 robotsmeta:
   - index,follow
 categories:

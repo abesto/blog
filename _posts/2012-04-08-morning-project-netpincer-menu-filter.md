@@ -1,7 +1,5 @@
 ---
 title: 'Morning Project: NetPincér Menu Filter'
-author: Zoltán Nagy
-layout: post
 permalink: /morning-project-netpincer-menu-filter
 robotsmeta:
   - index,follow

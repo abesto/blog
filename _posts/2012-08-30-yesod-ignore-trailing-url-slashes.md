@@ -1,7 +1,5 @@
 ---
 title: 'Yesod: Ignore Trailing URL Slashes'
-author: Zoltán Nagy
-layout: post
 permalink: /yesod-ignore-trailing-url-slashes
 robotsmeta:
   - index,follow

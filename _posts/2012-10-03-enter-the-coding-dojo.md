@@ -1,7 +1,5 @@
 ---
 title: 'Enter: the Coding Dojo'
-author: Zoltán Nagy
-layout: post
 permalink: /enter-the-coding-dojo
 robotsmeta:
   - index,follow

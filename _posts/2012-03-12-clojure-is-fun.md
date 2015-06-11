@@ -1,7 +1,5 @@
 ---
 title: Clojure is Fun
-author: Zoltán Nagy
-layout: post
 permalink: /clojure-is-fun
 robotsmeta:
   - index,follow

@@ -1,7 +1,5 @@
 ---
 title: Bacon.js on the Server
-author: Zoltán Nagy
-layout: post
 permalink: /bacon-js-on-the-server
 robotsmeta:
   - index,follow

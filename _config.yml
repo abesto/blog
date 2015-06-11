@@ -17,3 +17,13 @@ google_analytics_tracking_id: UA-17390698-2
 # Build settings
 markdown: redcarpet
 excerpt_separator: '<!-- more -->'
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Zoltán Nagy"
+    

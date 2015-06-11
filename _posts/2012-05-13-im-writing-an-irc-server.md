@@ -1,7 +1,5 @@
 ---
 title: 'I&#8217;m writing an IRC Server'
-author: Zoltán Nagy
-layout: post
 permalink: /im-writing-an-irc-server
 robotsmeta:
   - index,follow

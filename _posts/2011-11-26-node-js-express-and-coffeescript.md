@@ -1,7 +1,5 @@
 ---
 title: Node.js, Express and CoffeeScript
-author: Zoltán Nagy
-layout: post
 permalink: /node-js-express-and-coffeescript
 robotsmeta:
   - index,follow

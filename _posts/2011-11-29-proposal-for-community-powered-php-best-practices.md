@@ -1,7 +1,5 @@
 ---
 title: 'Proposal: a Community-powered Collection of PHP Best Practices'
-author: Zoltán Nagy
-layout: post
 permalink: /proposal-for-community-powered-php-best-practices
 description:
   - >

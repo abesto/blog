@@ -1,7 +1,5 @@
 ---
 title: Managing Your Private Server with Chef
-author: Zoltán Nagy
-layout: post
 permalink: /managing-your-private-server-with-chef
 robotsmeta:
   - index,follow

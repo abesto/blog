@@ -1,7 +1,5 @@
 ---
 title: 'Weekend Project: Mastermind'
-author: Zoltán Nagy
-layout: post
 permalink: /weekend-project-mastermind
 robotsmeta:
   - index,follow

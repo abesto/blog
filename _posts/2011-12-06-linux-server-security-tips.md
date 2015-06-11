@@ -1,7 +1,5 @@
 ---
 title: Linux Server Security Tips
-author: Zoltán Nagy
-layout: post
 permalink: /linux-server-security-tips
 robotsmeta:
   - index,follow

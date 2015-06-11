@@ -1,7 +1,5 @@
 ---
 title: The Sad Case of the HP Pavilion g6, OpenGL and AMD Switchable Graphics
-author: Zoltán Nagy
-layout: post
 permalink: /the-sad-case-of-the-hp-pavilion-g6-opengl-and-amd-switchable-graphics
 robotsmeta:
   - index,follow
