@@ -8,7 +8,7 @@ email: abesto@abesto.net
 twitter_username: abesto
 github_username:  abesto
 
-permalink: /:title
+permalink: /:title/
 paginate: 5
 
 google_analytics_tracking_id: UA-17390698-2
