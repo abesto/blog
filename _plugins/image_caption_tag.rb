@@ -11,33 +11,24 @@ module Jekyll
     @height = ''
 
     def initialize(tag_name, markup, tokens)
-      if markup =~ /(\S.*\s+)?(https?:\/\/|\/)(\S+)(\s+\d+\s+\d+)?(\s+.+)?/i
-        @class = $1 || ''
-        @img = $2 + $3
-        if $5
-          @title = $5.strip
-        end
-        if $4 =~ /\s*(\d+)\s+(\d+)/
-          @width = $1
-          @height = $2
-        end
+      if markup =~ /([^ ]*) +(.*)/i
+        @img = $1
+        @title = $2
       end
       super
     end
 
     def render(context)
-      output = super
       if @img
-        "<span class='#{('caption-wrapper ' + @class).rstrip}'>" +
-          "<img class='caption' src='#{@img}' width='#{@width}' height='#{@height}' alt='#{@title}' title='#{@title}'>" +
+        Liquid::Template.parse("<span class='caption-wrapper'>" +
+          "{% image #{@img} width='#{@width}' height='#{@height}' alt='#{@title}' title='#{@title} 'class='caption' %}" +
           "<span class='caption-text'>#{@title}</span>" +
-        "</span>"
+        "</span>").render(context)
       else
-        "Error processing input, expected syntax: {% img [class name(s)] /url/to/image [width height] [title text] %}"
+        "Error processing input, expected syntax: {% imgcap [class name(s)] /url/to/image [width height] [title text] %}"
       end
     end
   end
 end
 
 Liquid::Template.register_tag('imgcap', Jekyll::CaptionImageTag)
-

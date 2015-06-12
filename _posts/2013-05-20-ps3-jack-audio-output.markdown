@@ -19,15 +19,15 @@ In this case, an RCA-jack adapter is all that's needed to fix the situation. Sli
 
 For this, you'll need once female-female jack to connect this to your audio device.
 
-{% imgcap /images/2013-05-20-ps3-jack-audio-output/rca-jack-1.jpg RCA - 3.5mm %}
-{% imgcap /images/2013-05-20-ps3-jack-audio-output/jack-jack.jpg 3.5mm - 3.5mm %}
+{% imgcap rca-jack-1.jpg RCA - 3.5mm %}
+{% imgcap jack-jack.jpg 3.5mm - 3.5mm %}
 
 ### Male RCA - female 3.5mm jack
 
 Here two female-female couplers must be used between the RCA-jack adapter and the RCA outputs of the PS3.
 
-{% imgcap /images/2013-05-20-ps3-jack-audio-output/rca-jack-2.jpg RCA - 3.5mm %}
-{% imgcap /images/2013-05-20-ps3-jack-audio-output/rca-rca.jpg RCA - RCA (you'll need two of these) %}
+{% imgcap rca-jack-2.jpg RCA - 3.5mm %}
+{% imgcap rca-rca.jpg RCA - RCA (you'll need two of these) %}
 
 Whichever you use, you'll need to connect the correct RCA outputs from the PS3 to the correct sockets. Red always is the right audio channel, black or white is always the left channel. Yellow is video, you can ignore it (or use it for video output, of course). After all that is done, you'll need to set the audio output to "Audio Input Connector / SCART / AV MULTI" as described [here][1], and you're all set. Note that there's no system-wide volume control, but the games I've played so far all had their own.
 

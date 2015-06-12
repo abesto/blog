@@ -8,7 +8,7 @@ robotsmeta:
   - index,follow
 ---
 
-![Zoltán Nagy](/images/about/me.jpg)
+{% image me.jpg %}
 
 ## Things I'm proud of
 

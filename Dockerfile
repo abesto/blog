@@ -11,8 +11,11 @@ ENV LC_ALL C.UTF-8
 ADD . /src
 
 RUN apt-get install git ruby ruby-dev build-essential python nodejs -y && \
-    gem install pygments.rb jekyll --no-ri --no-rdoc && \
-    jekyll build -s /src -d /blog && \
+    gem install bundler && \
+    cd /src && \
+    bundle install --path .bundle-dir --without test && \
+    bundle exec jekyll build -s /src -d /blog && \
+    rm -rf .bundle-dir && \
     apt-get --purge -y remove git ruby-dev ruby build-essential python nodejs && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
