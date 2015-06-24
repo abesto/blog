@@ -17,6 +17,8 @@ disqus_shortname: abestoswoes
 # Build settings
 markdown: redcarpet
 excerpt_separator: '<!-- more -->'
+redcarpet:
+  extensions: [tables]
 
 defaults:
   -
