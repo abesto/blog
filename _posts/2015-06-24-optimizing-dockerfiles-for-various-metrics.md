@@ -1,13 +1,14 @@
 ---
-title: Optimizing Dockerfiles for various metrics
+title: Optimizing Dockerfiles for Various Metrics
 ---
 
 When optimizing algorithms, we make trade-offs between space, run-time
 complexity and code complexity. Methods for exploring these trade-offs
-are quite well researched. Similarly, when optimizing `Dockerfile`s, we make
-trade-offs between the complexity of the `Dockerfile`, build time from
-zero, incremental build-time, number of FS layers and ultimate image
-size. In this post I explore parts of this latter family of trade-offs.
+are quite well researched. Similarly, when optimizing `Dockerfile`s,
+we make trade-offs between the complexity of the `Dockerfile`, build
+time from zero, incremental build-time, number of FS layers, the
+ultimate image size and incremental download size. In this post I
+explore parts of this latter family of trade-offs.
 
 <!-- more -->
 
@@ -51,14 +52,15 @@ COPY nginx.conf /etc/nginx/conf.d/blog.conf
 | Initial build time | 3m50s | `time docker build --no-cache .` |
 | Repeat build time | 1s | The same build ran again, without the `--no-cache` option |
 | Incremental build time | 5s | Updated a blog post and ran without `--no-cache` |
-| Nr. of FS layers | 11 | Does NOT include the base image `nginx`. |
-| Image size | 340.246MB | Does NOT include the base image `nginx`. For reference, the size of the `nginx` image is 126.682MB. |
+| Nr. of FS layers | 11 | Does NOT include the base image `nginx` |
+| Image size | 340.246MB | Does NOT include the base image `nginx`; for reference, the size of the `nginx` image is 126.682MB at the time of writing |
+| Incremental download size | TBD | Size of the layers created by the incremental build |
 
 Please keep in mind that build times are not benchmarks for anything
 useful in themselves; they will only be useful when comparing
 different incarnations of the `Dockerfile`.
 
-Scripts used to generate the last two metrics:
+Scripts used to generate the last three metrics:
 
 ```sh
 # Nr. of FS layers
@@ -67,4 +69,6 @@ expr $(docker history -q $IMAGE | wc -l) - $(docker history -q nginx | wc -l)
 expr $(docker inspect $IMAGE | jq '.[0].VirtualSize') - \
      $(docker inspect nginx | jq '.[0].VirtualSize') | \
      awk '{ foo = $1 / 1024 / 1024 ; print foo "MB" }'
+# Incremental download size
+TBD
 ```
