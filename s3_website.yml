@@ -3,6 +3,13 @@ s3_secret: <%= ENV['S3_SECRET'] %>
 s3_bucket: abesto.net
 cloudfront_distribution_id: E1K2WMAMGKOJTA
 
+cloudfront_distribution_config:
+  aliases:
+    quantity: 2
+    items:
+      CNAME0: abesto.net
+      CNAME1: abesto.tech
+
 max_age:
    "assets/*": 6000
    "*": 300
