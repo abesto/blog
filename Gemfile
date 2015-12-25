@@ -15,3 +15,6 @@ gem "sass"          # And we want to write our stylesheets using SCSS/SASS
 
 # Minifying HTML is good for your health
 gem "octopress-minify-html"
+
+# Deployment to S3
+gem "s3_website"
