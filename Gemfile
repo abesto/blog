@@ -2,12 +2,13 @@ source 'https://rubygems.org'
 
 # Like, obviously
 gem "jekyll"
+gem "redcarpet"
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-assets"
+end
 
-# Syntax highlighting
-gem "pygments.rb"
-
-# Asset compression pipeline
-gem "jekyll-assets"
 # Compressors for jekyll-assets
 gem "coffee-script" # We want to write our javascripts in CoffeeScript
 gem "uglifier"      # And we want our javascripts to be minified with UglifyJS
