@@ -1,6 +1,5 @@
 ---
 title: 'Weekend Project: Mastermind'
-permalink: /weekend-project-mastermind
 robotsmeta:
   - index,follow
 categories:

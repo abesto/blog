@@ -1,6 +1,5 @@
 ---
 title: Managing Your Private Server with Chef
-permalink: /managing-your-private-server-with-chef
 robotsmeta:
   - index,follow
 categories:

@@ -1,6 +1,5 @@
 ---
 title: Linux Server Security Tips
-permalink: /linux-server-security-tips
 robotsmeta:
   - index,follow
 categories:

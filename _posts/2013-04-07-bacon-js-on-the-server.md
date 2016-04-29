@@ -1,6 +1,5 @@
 ---
 title: Bacon.js on the Server
-permalink: /bacon-js-on-the-server
 robotsmeta:
   - index,follow
 categories:

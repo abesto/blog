@@ -1,6 +1,5 @@
 ---
 title: 'Enter: the Coding Dojo'
-permalink: /enter-the-coding-dojo
 robotsmeta:
   - index,follow
 categories:

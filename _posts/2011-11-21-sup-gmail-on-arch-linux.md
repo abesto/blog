@@ -1,6 +1,5 @@
 ---
 title: Sup + GMail on Arch Linux
-permalink: /sup-gmail-on-arch-linux
 robotsmeta:
   - index,follow
 categories:

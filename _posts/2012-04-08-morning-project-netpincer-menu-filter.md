@@ -1,6 +1,5 @@
 ---
 title: 'Morning Project: NetPincér Menu Filter'
-permalink: /morning-project-netpincer-menu-filter
 robotsmeta:
   - index,follow
 categories:

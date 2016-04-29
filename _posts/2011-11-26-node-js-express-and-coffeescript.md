@@ -1,6 +1,5 @@
 ---
 title: Node.js, Express and CoffeeScript
-permalink: /node-js-express-and-coffeescript
 robotsmeta:
   - index,follow
 categories:

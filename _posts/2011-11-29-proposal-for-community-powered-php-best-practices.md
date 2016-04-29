@@ -1,6 +1,5 @@
 ---
 title: 'Proposal: a Community-powered Collection of PHP Best Practices'
-permalink: /proposal-for-community-powered-php-best-practices
 description:
   - >
     Proposal for a community-based collection of PHP best practices for solving

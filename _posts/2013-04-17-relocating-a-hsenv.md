@@ -1,6 +1,5 @@
 ---
 title: Relocating a hsenv
-permalink: /relocating-a-hsenv
 robotsmeta:
   - index,follow
 categories:

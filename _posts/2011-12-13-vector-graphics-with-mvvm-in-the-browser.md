@@ -1,6 +1,5 @@
 ---
 title: 'Mostly Shiny: Vector Graphics with MVVM in the Browser'
-permalink: /vector-graphics-with-mvvm-in-the-browser
 description:
   - >
     A minimalistic graph-drawing example (graph as in "graph theory"), using

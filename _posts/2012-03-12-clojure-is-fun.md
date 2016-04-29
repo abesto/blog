@@ -1,6 +1,5 @@
 ---
 title: Clojure is Fun
-permalink: /clojure-is-fun
 robotsmeta:
   - index,follow
 categories:

@@ -1,6 +1,5 @@
 ---
 title: 'I&#8217;m writing an IRC Server'
-permalink: /im-writing-an-irc-server
 robotsmeta:
   - index,follow
 categories:

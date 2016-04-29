@@ -1,6 +1,5 @@
 ---
 title: 'Yesod: Ignore Trailing URL Slashes'
-permalink: /yesod-ignore-trailing-url-slashes
 robotsmeta:
   - index,follow
 categories:
