@@ -1,0 +1,35 @@
+---
+title: In the news - 2016-04-29
+permalink: news-2016-04-29
+tags: 
+  - news
+---
+
+Sometimes I share at Prezi the most interesting articles I find online. Someone
+asked to maybe make these publicly available, so let's see how that works out.
+
+[A Look Back at One Year of Docker Security](https://blog.docker.com/2016/04/docker-security/)
+(2016-04-20) is a look at the security-focused changes that happened in Docker
+in the past year. I love the "secure by default" philosophy. Daemon-side
+ulimits, user-namespaces, and other fun thingies.
+
+[Amazon EMR Update – Apache HBase 1.2 Is Now Available](https://aws.amazon.com/blogs/aws/amazon-emr-update-apache-hbase-1-2-is-now-available/)
+(2016-04-21) is AWS announcing that they've released new features for EMR, their
+hosted big data stack. The second half of the post veers off into a "getting
+started with HBase", in case you want to give it a quick spin.
+
+[Antivirus for S3 Buckets](https://cloudonaut.io/antivirus-for-s3-buckets/)
+(2016-04-18) is a short and sweet post on how to use
+[ClamAV](http://www.clamav.net/) to check content in an S3 bucket for malware.
+Extra brownie points for the architecture diagram with
+[Cloudcraft](https://cloudcraft.co/).
+
+[Longer EBS and Storage Gateway Resource IDs Now Available](https://aws.amazon.com/blogs/aws/theyre-here-longer-ebs-and-storage-gateway-resource-ids-now-available/)
+(2016-04-28) is just an announcement that the newer, longer, better IDs are now
+available for more resource types.
+
+[Kafka Inside Keystone Pipeline](http://techblog.netflix.com/2016/04/kafka-inside-keystone-pipeline.html)
+(2016-04-27) talks about how Netflix uses Kafka inside their
+[Keystone data pipeline](http://techblog.netflix.com/2016/02/evolution-of-netflix-data-pipeline.html).
+Challenges of running at scale, failovers, some configuration, deployment
+strategies, the good stuff.
