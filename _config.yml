@@ -6,7 +6,7 @@ author: "Zoltán Nagy"
 description: Making developers faster.
 email: abesto@abesto.net
 twitter_username: abesto
-github_username:  abesto
+github_username: abesto
 
 permalink: /:title/
 paginate: 5
@@ -28,7 +28,7 @@ defaults:
     values:
       layout: "post"
       author: "Zoltán Nagy"
-    
+
 assets:
-  js_compressor:  uglifier
-  css_compressor: sass
+  sources:
+    - _assets/stylesheets

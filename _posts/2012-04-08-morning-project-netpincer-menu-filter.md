@@ -14,7 +14,7 @@ tags:
 
 Solution: a user script that adds whitelist and blacklist filtering. It looks like this:
 
-{% image netpincer-filter.png %}
+{% asset netpincer-filter.png %}
 
 It works in both Chrome as a user script and as a Gresemonkey script in Firefox. You can get it from userscripts.org:
 

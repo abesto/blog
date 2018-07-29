@@ -21,7 +21,7 @@ module Jekyll
     def render(context)
       if @img
         Liquid::Template.parse("<span class='caption-wrapper'>" +
-          "{% image #{@img} width='#{@width}' height='#{@height}' alt='#{@title}' title='#{@title} 'class='caption' %}" +
+          "{% asset #{@img} width='#{@width}' height='#{@height}' alt='#{@title}' title='#{@title} 'class='caption' %}" +
           "<span class='caption-text'>#{@title}</span>" +
         "</span>").render(context)
       else
